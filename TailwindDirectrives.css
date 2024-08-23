@@ -4,49 +4,48 @@
 
 /* Custom Design */
 @layer base {
-    h1{
-        @apply text-darkGrayishBlue text-3xl my-8 font-bold text-center md:text-4xl;
-    }
-    p{
-        @apply text-grayishBlue text-lg text-center md:text-xl;
-    }
-    h5{
-        @apply text-sm darkGrayishBlue;
-    }
+  h1 {
+    @apply text-darkGrayishBlue text-3xl my-8 font-bold text-center md:text-4xl;
+  }
+  p {
+    @apply text-grayishBlue text-lg text-center md:text-xl;
+  }
+  h5 {
+    @apply text-sm darkGrayishBlue;
+  }
 }
 
-.custBtn{
-    @apply py-2 px-6 rounded-full text-white text-lg;
+.custBtn {
+  @apply py-2 px-6 rounded-full text-white text-lg;
 }
-.btnGrp{
-    @apply flex flex-col md:flex-row mt-8 gap-4;
+.btnGrp {
+  @apply flex flex-col md:flex-row mt-8 gap-4;
 }
-.secCont{
-    @apply h-fit w-screen flex flex-col items-center py-12 px-4;
+.secCont {
+  @apply h-fit w-screen flex flex-col items-center py-12 px-4;
 }
 
-
-#wrapper{
-position: relative;
-height: 100vh;
-width: 100vw;
-z-index: 1;
-overflow-x: hidden;
+#wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  overflow-x: hidden;
 }
-#backgroundBanner{
-position: absolute;
-height: 100vh;
-width: 100vw;
-background-image: url("/images/bg-header-desktop.png");
-background-repeat: no-repeat;
-background-size: cover;
-z-index: 2;
-/* background-color: coral; */
+#backgroundBanner {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  /* background-color: coral; */
 }
 
 @media screen and (max-width: 768px) {
-    #backgroundBanner{
-        background-image: url("/images/bg-header-mobile.png");
-        background-size: cover;
-    }
+  #backgroundBanner {
+    background-image: url("images/bg-header-mobile.png");
+    background-size: cover;
+  }
 }
