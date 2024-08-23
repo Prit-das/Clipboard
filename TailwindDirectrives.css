@@ -11,7 +11,7 @@
     @apply text-grayishBlue text-lg text-center md:text-xl;
   }
   h5 {
-    @apply text-sm darkGrayishBlue;
+    @apply text-sm text-darkGrayishBlue hover:text-lightBlue cursor-pointer duration-100;
   }
 }
 
@@ -36,7 +36,7 @@
   position: absolute;
   height: 100vh;
   width: 100vw;
-  background-image: url("images/bg-header-desktop.png");
+  background-image: url("/images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 768px) {
   #backgroundBanner {
-    background-image: url("images/bg-header-mobile.png");
+    background-image: url("/images/bg-header-mobile.png");
     background-size: cover;
   }
 }

@@ -480,10 +480,17 @@ p {
 }
 
 h5 {
+  cursor: pointer;
   font-size: 0.875rem;
   line-height: 1.25rem;
   --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: hsl(210 10% 33% / var(--tw-text-opacity));
+  transition-duration: 100ms;
+}
+
+h5:hover {
+  --tw-text-opacity: 1;
+  color: hsl(233 100% 69% / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -680,6 +687,10 @@ h5 {
   max-width: 48rem;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -743,11 +754,6 @@ h5 {
   padding: 2rem;
 }
 
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -769,6 +775,10 @@ h5 {
 .text-slate-600 {
   --tw-text-opacity: 1;
   color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.duration-100 {
+  transition-duration: 100ms;
 }
 
 /* Custom Design */
@@ -811,7 +821,7 @@ h5 {
   padding-right: 1rem;
 }
 
-#wrapper{
+#wrapper {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -819,7 +829,7 @@ h5 {
   overflow-x: hidden;
 }
 
-#backgroundBanner{
+#backgroundBanner {
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -831,10 +841,15 @@ h5 {
 }
 
 @media screen and (max-width: 768px) {
-  #backgroundBanner{
+  #backgroundBanner {
     background-image: url("/images/bg-header-mobile.png");
     background-size: cover;
   }
+}
+
+.hover\:text-lightBlue:hover {
+  --tw-text-opacity: 1;
+  color: hsl(233 100% 69% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
