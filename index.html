@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Clip Board</title>
+  </head>
+  <body>
+  <section id="wrapper">
+    <!-- Background Banner -->
+    <section id="backgroundBanner"></section>
+
+    <!-- Hero Section -->
+    <section id="heroMain" class="secCont">
+      <img src="/images/logo.svg" class="h-24 mt-32">
+      <h1>A history of everything you copy</h1>
+      <p>Clipboard allows you to track and organize everything you copy.</p>
+      <p>Instantly access your clipboard on all your devices.</p>
+      <div class="btnGrp">
+        <button class="bg-strongCyan custBtn">Download for iOS</button>
+        <button class="bg-lightBlue custBtn">Download for Mac</button>
+      </div>
+    </section>
+
+    <!-- Snippet Section -->
+    <section id="snippet" class="secCont">
+      <h1>Keep track of your snippets</h1>
+      <p class="max-w-3xl">
+        Clipboard instantly stores any item you copy in the cloud, meaning
+        you can access your snippets immediately on all devices. Our Mac
+        and iOS apps will help you organize everything.
+      </p>
+      <div id="snippetItems"
+        class="relative secCont justify-between md:flex-row gap-6 md:mt-10">
+        <img src="/images/image-computer.png" class="md:relative top-0 left-0 md:left-[-5%]">
+          <div id="snippetText" class="flex flex-col items-center text-center md:text-left md:items-start md:w-1/2 md:p-32">
+            <h1 class="text-xl">Quick Search</h1>
+            <p class="md:text-left md:min-w-80">
+              Easily search your snippet by content, category, web address, application, and more.
+            </p>
+            <h1 class="text-xl">iCloud Sync</h1>
+            <p class="md:text-left md:min-w-80">
+              Instantly saves and syncs snippets across all your devices.
+            </p>
+            <h1 class="text-xl">Completely History</h1>
+            <p class="md:text-left md:min-w-80">
+              Retrieve any snippets from the first moment you started using the app.
+            </p>
+          </div>
+      </div>
+    </section>
+
+    <!-- Accessibility Section -->
+    <section id="accessibility" class="secCont">
+    <h1>Access Clipboard Anywhere</h1>
+    <p class="md:w-[42%] w-96">
+      Where you're on the go, or at your computer, you can access all your clipboard
+      snippet in a few simple clicks.
+    </p>
+    <div id="accessibilityImage" class="h-fit w-fit mt-16 flex justify-center">
+      <img src="images/image-devices.png" class="w-full">
+    </div>
+    </section>
+
+    <!-- Quick assistance Section -->
+    <section id="quickassistance" class="secCont">
+    <h1>Supercharge your workflow</h1>
+    <p class="md:w-[42%] w-fit">
+      we've got the tools to boost your productivity
+    </p>
+    <div id="quickReview"
+    class="h-fit w-screen flex flex-col gap-12 md:gap-0 md:flex-row md:justify-evenly items-center mt-20">
+      <div class="h-fit w-fit flex flex-col gap-6 items-center" id="reviewitems">
+        <img src="images/icon-blacklist.svg" class="h-10 w-10">
+        <h1 class="text-slate-600 text-xl font-bold text-center">
+          Create blacklists
+        </h1>
+        <p class="w-80">
+          Easily search your snippets by content, category, web address, application, and more.
+        </p>
+      </div>
+      <div class="h-fit w-fit flex flex-col gap-6 items-center" id="reviewitems">
+        <img src="images/icon-text.svg" class="h-10 w-10">
+        <h1 class="text-slate-600 text-xl font-bold text-center">
+          Plain text snippet
+        </h1>
+        <p class="w-80">
+          Remove unwanted formatting from copied text for a consistent look.
+        </p>
+      </div>
+      <div class="h-fit w-fit flex flex-col gap-6 items-center" id="reviewitems">
+        <img src="images/icon-preview.svg" class="h-8 w-12">
+        <h1 class="text-slate-600 text-xl font-bold text-center">
+          Sneak preview
+        </h1>
+        <p class="w-80">
+          Quick preview of all snippets on your Clipboard for easy access.
+        </p>
+      </div>
+    </div>
+    </section>
+
+    <!-- Partners Logo Section -->
+    <section id="partnersLogo"
+    class="h-fit w-screen flex flex-wrap justify-evenly py-20 gap-14 items-center">
+    <img src="images/logo-google.png" class="h-fit w-fit">
+    <img src="images/logo-ibm.png" class="h-fit w-fit">
+    <img src="images/logo-microsoft.png" class="h-fit w-fit">
+    <img src="images/logo-hp.png" class="h-fit w-fit">
+    <img src="images/logo-vector-graphics.png" class="h-fit w-fit">
+    </section>
+
+    <!-- Cliptext Section -->
+    <section id="cliptext"
+    class="secCont justify-evenly">
+      <h1>Clipboard for iOS and Mac OS</h1>
+      <p class="md:w-[50%]">
+        Available for free on the App Store. Download for Mac or iOS, sync with
+        iCloud and you're ready to start adding to your clipboard.
+      </p>
+      <div class="btnGrp">
+        <button class="bg-strongCyan custBtn">Download for iOS</button>
+        <button class="bg-lightBlue custBtn">Download for Mac</button>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="h-fit w-screen p-8 flex flex-wrap gap-10 justify-evenly bg-slate-50">
+      <img src="images/logo.svg" class="h-12">
+      <div class="">
+        <h5>FAQs</h5>
+        <h5>Contact Us</h5>
+      </div>
+      <div class="">
+        <h5>Privacy Policy</h5>
+        <h5>Press Kit</h5>
+      </div>
+      <div class="">
+        <h5>Install Quide</h5>
+      </div>
+      <div class="flex gap-8">
+        <img src="images/icon-facebook.svg" class="h-5">
+        <img src="images/icon-twitter.svg" class="h-5">
+        <img src="images/icon-instagram.svg" class="h-5">
+      </div>
+    </footer>
+  </section>
+  </body>
+</html>
