@@ -613,6 +613,10 @@ h5:hover {
   top: 0px;
 }
 
+.left-\[-5\%\] {
+  left: -5%;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -683,12 +687,20 @@ h5:hover {
   width: 100vw;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -719,12 +731,12 @@ h5:hover {
   gap: 2.5rem;
 }
 
-.gap-12 {
-  gap: 3rem;
-}
-
 .gap-14 {
   gap: 3.5rem;
+}
+
+.gap-24 {
+  gap: 6rem;
 }
 
 .gap-6 {
@@ -733,6 +745,10 @@ h5:hover {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .bg-lightBlue {
@@ -757,6 +773,11 @@ h5:hover {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .text-center {
@@ -817,8 +838,8 @@ h5:hover {
   align-items: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 #wrapper {
@@ -893,15 +914,29 @@ h5:hover {
     justify-content: space-evenly;
   }
 
-  .md\:gap-0 {
-    gap: 0px;
-  }
-
   .md\:p-32 {
     padding: 8rem;
   }
 
   .md\:text-left {
     text-align: left;
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:left-\[-5\%\] {
+    left: -5%;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-0 {
+    gap: 0px;
   }
 }
